@@ -1,0 +1,37 @@
+.overview-item{
+  border-radius: 2%;
+  height: 100px;
+  width: 230px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  cursor:pointer;
+}
+.overview-item:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.row{
+  display:flex;
+  justify-content: space-between;
+}
+.row-two{
+  display:flex;
+  justify-content: space-between;
+}
+.title{
+  color: hsl(228, 12%, 44%);
+  font-size: 16px;
+  font-weight: 700;
+}
+.number{
+  font-weight: 900;
+  font-size: 36px;
+  align-self: center;
+}
+.percentage{
+  font-size: 14px;
+  align-self: center;
+}
